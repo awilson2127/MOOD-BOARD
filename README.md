@@ -1,61 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
+# Mood Board
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-}
+## Description
+A web application that enables users to create and share personalized mood boards by pinning images from the web.
 
-h1 {
-    margin: 0;
-}
+## Setup
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
+3. Run `npm start` to start the server.
+4. Open your browser and go to `http://localhost:3000`.
 
-button {
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #005f6a;
-}
-
-#boards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.board {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 0.5rem;
-    padding: 1rem;
-    width: 200px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.board img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-.board button {
-    background-color: #f44336;
-}
-
-.board button:hover {
-    background-color: #c23621;
-}
+## Usage
+- Click on "Create Board" to create a new mood board.
+- Enter the URL of an image and click "Add Image" to pin it to the board.
